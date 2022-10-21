@@ -1,0 +1,28 @@
+{
+  "name": "statki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysdz/statki.git"
+  },
+  "author": "krzysdz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krzysdz/statki/issues"
+  },
+  "homepage": "https://github.com/krzysdz/statki#readme",
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "express-session": "^1.17.3",
+    "ws": "^8.9.0"
+  },
+  "optionalDependencies": {
+    "utf-8-validate": "^5.0.10"
+  },
+  "type": "module"
+}

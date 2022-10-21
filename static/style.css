@@ -1,0 +1,20 @@
+.game-board td {
+	border: 1px solid black;
+	width: 2em;
+	height: 2em;
+	padding: 0;
+}
+
+.game-board td.piece {
+	background-color: rgb(136, 136, 136);
+}
+
+.game-board td.hit::before {
+	content: 'x';
+	text-align: center;
+	display: block;
+}
+
+#game table {
+	border-collapse: collapse;
+}
